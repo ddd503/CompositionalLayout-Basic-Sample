@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        PhotoService.requestAuthorizationIfNeeded { (canAccess) in
+            guard canAccess else { fatalError("写真へのアクセスが許可されていない") }
+        }
     }
 
 
