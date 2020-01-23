@@ -56,15 +56,47 @@
 		456C11C823D5C93A006A7176 /* CompositionalLayout-Basic-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				456C11E023D9D01A006A7176 /* Model */,
+				456C11DF23D9D016006A7176 /* View */,
+				456C11DE23D9D007006A7176 /* Controller */,
+				456C11DD23D9D003006A7176 /* Other */,
+			);
+			path = "CompositionalLayout-Basic-Sample";
+			sourceTree = "<group>";
+		};
+		456C11DD23D9D003006A7176 /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				456C11C923D5C93A006A7176 /* AppDelegate.swift */,
 				456C11CB23D5C93A006A7176 /* SceneDelegate.swift */,
-				456C11CD23D5C93A006A7176 /* ViewController.swift */,
-				456C11CF23D5C93A006A7176 /* Main.storyboard */,
 				456C11D223D5C93D006A7176 /* Assets.xcassets */,
 				456C11D423D5C93D006A7176 /* LaunchScreen.storyboard */,
 				456C11D723D5C93D006A7176 /* Info.plist */,
 			);
-			path = "CompositionalLayout-Basic-Sample";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		456C11DE23D9D007006A7176 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				456C11CD23D5C93A006A7176 /* ViewController.swift */,
+				456C11CF23D5C93A006A7176 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		456C11DF23D9D016006A7176 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		456C11E023D9D01A006A7176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVR5UQEHBD;
-				INFOPLIST_FILE = "CompositionalLayout-Basic-Sample/Info.plist";
+				INFOPLIST_FILE = "CompositionalLayout-Basic-Sample/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LVR5UQEHBD;
-				INFOPLIST_FILE = "CompositionalLayout-Basic-Sample/Info.plist";
+				INFOPLIST_FILE = "CompositionalLayout-Basic-Sample/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
