@@ -28,8 +28,11 @@ final class PhotoService {
         }
     }
 
-    static func photoList() -> PHFetchResult<PHAsset> {
-        let assets = PHAsset.fetchAssets(with: nil)
+    static func photoList() -> [PHAsset] {
+        var assets = [PHAsset]()
+        PHAsset.fetchAssets(with: nil).enumerateObjects { (asset, _, _) in
+            assets.append(asset)
+        }
         return assets
     }
 }
