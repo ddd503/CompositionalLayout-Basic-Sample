@@ -9,29 +9,29 @@
 /* Begin PBXBuildFile section */
 		456C11CA23D5C93A006A7176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C11C923D5C93A006A7176 /* AppDelegate.swift */; };
 		456C11CC23D5C93A006A7176 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C11CB23D5C93A006A7176 /* SceneDelegate.swift */; };
-		456C11CE23D5C93A006A7176 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C11CD23D5C93A006A7176 /* ViewController.swift */; };
-		456C11D123D5C93A006A7176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456C11CF23D5C93A006A7176 /* Main.storyboard */; };
+		456C11CE23D5C93A006A7176 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C11CD23D5C93A006A7176 /* PhotoListViewController.swift */; };
+		456C11D123D5C93A006A7176 /* PhotoListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456C11CF23D5C93A006A7176 /* PhotoListViewController.storyboard */; };
 		456C11D323D5C93D006A7176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456C11D223D5C93D006A7176 /* Assets.xcassets */; };
 		456C11D623D5C93D006A7176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456C11D423D5C93D006A7176 /* LaunchScreen.storyboard */; };
 		456C11E223D9D1C7006A7176 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C11E123D9D1C7006A7176 /* PhotoService.swift */; };
 		45E006A723DC528800747887 /* PhotoListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E006A623DC528800747887 /* PhotoListLayout.swift */; };
-		45E006AA23DC535900747887 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E006A823DC535900747887 /* CollectionViewCell.swift */; };
-		45E006AB23DC535900747887 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E006A923DC535900747887 /* CollectionViewCell.xib */; };
+		45E006AA23DC535900747887 /* PhotoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E006A823DC535900747887 /* PhotoListCell.swift */; };
+		45E006AB23DC535900747887 /* PhotoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E006A923DC535900747887 /* PhotoListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		456C11C623D5C93A006A7176 /* CompositionalLayout-Basic-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CompositionalLayout-Basic-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456C11C923D5C93A006A7176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		456C11CB23D5C93A006A7176 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		456C11CD23D5C93A006A7176 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		456C11D023D5C93A006A7176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		456C11CD23D5C93A006A7176 /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		456C11D023D5C93A006A7176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PhotoListViewController.storyboard; sourceTree = "<group>"; };
 		456C11D223D5C93D006A7176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		456C11D523D5C93D006A7176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456C11D723D5C93D006A7176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456C11E123D9D1C7006A7176 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
 		45E006A623DC528800747887 /* PhotoListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListLayout.swift; sourceTree = "<group>"; };
-		45E006A823DC535900747887 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		45E006A923DC535900747887 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		45E006A823DC535900747887 /* PhotoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCell.swift; sourceTree = "<group>"; };
+		45E006A923DC535900747887 /* PhotoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,8 @@
 		456C11DE23D9D007006A7176 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				456C11CD23D5C93A006A7176 /* ViewController.swift */,
-				456C11CF23D5C93A006A7176 /* Main.storyboard */,
+				456C11CD23D5C93A006A7176 /* PhotoListViewController.swift */,
+				456C11CF23D5C93A006A7176 /* PhotoListViewController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				45E006A623DC528800747887 /* PhotoListLayout.swift */,
-				45E006A823DC535900747887 /* CollectionViewCell.swift */,
-				45E006A923DC535900747887 /* CollectionViewCell.xib */,
+				45E006A823DC535900747887 /* PhotoListCell.swift */,
+				45E006A923DC535900747887 /* PhotoListCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 			files = (
 				456C11D623D5C93D006A7176 /* LaunchScreen.storyboard in Resources */,
 				456C11D323D5C93D006A7176 /* Assets.xcassets in Resources */,
-				45E006AB23DC535900747887 /* CollectionViewCell.xib in Resources */,
-				456C11D123D5C93A006A7176 /* Main.storyboard in Resources */,
+				45E006AB23DC535900747887 /* PhotoListCell.xib in Resources */,
+				456C11D123D5C93A006A7176 /* PhotoListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				456C11E223D9D1C7006A7176 /* PhotoService.swift in Sources */,
-				456C11CE23D5C93A006A7176 /* ViewController.swift in Sources */,
-				45E006AA23DC535900747887 /* CollectionViewCell.swift in Sources */,
+				456C11CE23D5C93A006A7176 /* PhotoListViewController.swift in Sources */,
+				45E006AA23DC535900747887 /* PhotoListCell.swift in Sources */,
 				456C11CA23D5C93A006A7176 /* AppDelegate.swift in Sources */,
 				45E006A723DC528800747887 /* PhotoListLayout.swift in Sources */,
 				456C11CC23D5C93A006A7176 /* SceneDelegate.swift in Sources */,
@@ -195,12 +195,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		456C11CF23D5C93A006A7176 /* Main.storyboard */ = {
+		456C11CF23D5C93A006A7176 /* PhotoListViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				456C11D023D5C93A006A7176 /* Base */,
 			);
-			name = Main.storyboard;
+			name = PhotoListViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		456C11D423D5C93D006A7176 /* LaunchScreen.storyboard */ = {

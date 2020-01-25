@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.swift
+//  PhotoListCell.swift
 //  CompositionalLayout-Basic-Sample
 //
 //  Created by kawaharadai on 2020/01/25.
@@ -9,7 +9,7 @@
 import UIKit
 import Photos
 
-final class CollectionViewCell: UICollectionViewCell {
+final class PhotoListCell: UICollectionViewCell {
 
     @IBOutlet weak private var imageView: UIImageView!
 
