@@ -14,10 +14,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QXc-Sf-oyp">
+                                <rect key="frame" x="45.5" y="746" width="323" height="32"/>
+                                <segments>
+                                    <segment title="3" width="80"/>
+                                    <segment title="4" width="80"/>
+                                    <segment title="5" width="80"/>
+                                    <segment title="1" width="80"/>
+                                </segments>
+                                <connections>
+                                    <action selector="didChangeSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="vfT-mJ-SMQ"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QXc-Sf-oyp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.7" id="Rmp-6N-9pu"/>
+                            <constraint firstItem="QXc-Sf-oyp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="flT-cp-h0v"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="CompositionalLayout-Basic-Sample" id="kp2-Hz-Kdg"/>
+                    <connections>
+                        <outlet property="segmentedControl" destination="QXc-Sf-oyp" id="OHL-vP-CXM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

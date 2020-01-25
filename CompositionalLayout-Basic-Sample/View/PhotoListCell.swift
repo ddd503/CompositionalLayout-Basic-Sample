@@ -22,7 +22,7 @@ final class PhotoListCell: UICollectionViewCell {
     }
 
     func setImage(asset: PHAsset) {
-        let imageLength = imageView.bounds.width * 2
+        let imageLength = imageView.bounds.width * 4
         PHImageManager.default().requestImage(for: asset, targetSize: CGSize(width: imageLength, height: imageLength),
                                               contentMode: .aspectFill,
                                               options: nil) { (image, _) in
