@@ -13,6 +13,11 @@ final class PhotoListCell: UICollectionViewCell {
 
     @IBOutlet weak private var imageView: UIImageView!
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imageView.image = nil
+    }
+    
     static var identifier: String {
         return String(describing: self)
     }
