@@ -1,5 +1,5 @@
 # UICollectionViewCompositionalLayout-UICollectionViewDiffableDataSource-Sample
-UICollectionViewCompositionalLayoutを使ってグリッド表示のレイアウトを生成するサンプル
+UICollectionViewCompositionalLayoutとUICollectionViewDiffableDataSourceを使ってグリッド表示のレイアウトを生成するサンプル
 
 <img src="https://github.com/ddd503/Image-Resource/raw/master/image/compsitionalLayout-grid.png" width="300">
 
