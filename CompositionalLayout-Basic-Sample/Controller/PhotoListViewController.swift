@@ -12,6 +12,7 @@ import Photos
 final class PhotoListViewController: UIViewController {
 
     // MARK: Propaties
+
     @IBOutlet weak private var segmentedControl: UISegmentedControl! {
         didSet {
             // 見た目調整
@@ -30,6 +31,7 @@ final class PhotoListViewController: UIViewController {
     private(set) var dataSource: UICollectionViewDiffableDataSource<Int, PHAsset>!
 
     // MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         PhotoService.requestAuthorizationIfNeeded { [weak self] (canAccess) in
@@ -40,6 +42,7 @@ final class PhotoListViewController: UIViewController {
     }
 
     // MARK: Setup
+
     func setupCollectionView() {
         photoListCollectionView = UICollectionView(frame: view.bounds,
                                                    collectionViewLayout: PhotoListLayout.gridLayout(collectionViewBounds: view.bounds,
@@ -65,6 +68,7 @@ final class PhotoListViewController: UIViewController {
     }
 
     // MARK: Action
+
     @IBAction func didChangeSegmentedControl(_ sender: UISegmentedControl) {
         guard let title = sender.titleForSegment(at: sender.selectedSegmentIndex),
             let itemCount = Int(title) else {
