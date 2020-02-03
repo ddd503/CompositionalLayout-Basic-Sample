@@ -9,6 +9,10 @@
 import UIKit
 
 final class PhotoListLayout {
+    /// グリッド形式のレイアウトを生成する
+    /// - Parameters:
+    ///   - collectionViewBounds: UICollectionViewのBounds
+    ///   - itemCount: 1列に表示するitemの個数
     static func gridLayout(collectionViewBounds: CGRect, itemCount: Int) -> UICollectionViewLayout {
         let lineCount = itemCount - 1
         let itemSpacing = CGFloat(1) // セル間のスペース
